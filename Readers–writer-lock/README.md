@@ -2,20 +2,20 @@
 
 ## Summary
 
-This program simulate a simple Readers–writer lock mechanism that is more "fair" towards the writers
-Any reader that want to read get permission but when a writer wish to get access all the readers afterwards have to wait
-This protocol might not solve starvation completly but it is a better solution for writers
-The program uses main's data strucutre in round-robin, strucutre sizes can be changes by using NUM_THREADS define
+This program simulate a simple Readers–writer lock mechanism that is more "fair" towards the writers<br />
+Any reader that want to read get permission but when a writer wish to get access all the readers afterwards have to wait<br />
+This protocol might not solve starvation completly but it is a better solution for writers<br />
+The program uses main's data strucutre in round-robin, strucutre sizes can be changes by using NUM_THREADS define<br />
 
-The code was written independately to maintain and improve my pthreads and synchronization skills
-Program code is inspired by "Operating System" course in the Technion, mainly from the tutoroal synchronization slides by Idan Yaniv
+The code was written independately to maintain and improve my pthreads and synchronization skills.<br />
+Program code is inspired by "Operating System" course in the Technion, mainly from the tutoroal synchronization slides by Idan Yaniv<br />
 
 ## How to use the program:
-each line takes 2 arguments
-In each line, the user have to write 'quit' or specify 2 arguments '<type> <sleep time>'
-when type is "read" or "write" wich indicated the activity the user want to specify
-and sleeping time is number between 0 to 5
-"to end the program type \"quit\"
+each line takes 2 arguments<br />
+In each line, the user have to write 'quit' or specify 2 arguments '<type> <sleep time>'<br />
+when type is "read" or "write" wich indicated the activity the user want to specify<br />
+and sleeping time is number between 0 to 5<br />
+"to end the program type \"quit\"<br />
 
 - compile it with:
 ```
